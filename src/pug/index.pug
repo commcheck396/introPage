@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Sebastian Qu's Mainpage
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Sebastian Qu
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
@@ -43,7 +43,7 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#interests') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
 
@@ -54,65 +54,85 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Sebastian(Shaobo)
+                        span.text-primary Qu
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        | #4240 3869 Miramar Street · CA 92092 · +1 (852) 291-2386 · +86 156-2087-1917 ·
+                        a(href='mailto:name@email.com') commcheck396@gmail.com
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | Hi, I'm Sebastian, a software engineer with experience in backend development, automated testing, and full-stack web applications. I’ve interned at Tesla and ASML, focusing on performance optimization and automation. Passionate about building efficient, scalable software, I’m always exploring new technologies to tackle complex challenges. Let’s connect!
                     .social-icons
                         a.social-icon(href='#!')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='#!')
                             i.fab.fa-github
                         a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
                             i.fab.fa-facebook-f
+                        a.social-icon(href='#!')
+                            i.fab.fa-instagram
+                        a.social-icon(href='#!') 
+                            i.fab.fa-weixin
+                        a.social-icon(href='#!')
+                            i.fas.fa-envelope
+
 
             hr.m-0
 
             // Experience
             section#experience.resume-section
                .resume-section-content
-                    h2.mb-5 Experience
+                    h2.mb-5 Professional Experience
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 Tesla · Shanghai, China
+                            .subheading.mb-3 Intern Software QA Engineer
                             p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                | • Developed an ASR (Automatic Speech Recognition) latency detector with Python, improving batch data processing speed by 67.7% and measurement accuracy by 23.5%, enabling more reliable performance evaluations.
+                            p
+                                | • Redesigned the Jenkins Pipeline - Trip Planner Pipeline (TPP) for the Chinese market, incorporating junction view and other functionalities not present in North American versions. 
+                            p
+                                | • Developed tools for analyzing Splunk logs and Auto-Test Pipeline results on Tesla vehicles, streamlining monitoring and evaluation processes and accelerating pre-release regression testing by 20%.
+                            p
+                                | • Created the VoiceRecNLU Pipeline with Groovy and Java in Jenkins to automatically evaluate the accuracy of the NLU module in newly built firmware, saving at least 60 minutes of validation time per firmware version.
+                            p
+                                | • Established Tesla's Node Farm using Raspberry Pi and Linux to control and monitor vehicle PCs, deploying eight parallel nodes and reducing regression test suite and pipeline run time by 63.3% at Tesla Shanghai.
+            
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary Jul 2023 – Jan 2024
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 ASML · Wuhan, China
+                            .subheading.mb-3 Intern Software Development Engineer in Test
                             p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                                | • Created a Code Coverage Analysis Tool with Python and GCC to assess automated test coverage per build, leading to a 37% increase in coverage and significantly enhancing accuracy and comprehensiveness.
+                            p
+                                | • Designed Auto Packager & Auto Cleaner to optimize server performance by clearing expired jobs and packaging low-priority tasks, reducing average server load by 12%.
+                            p
+                                | • Developed the Auto Verify & Auto Run Toolkit to automate daily job execution and Jira ticket verification, running unresolved tickets and checking for bug fixes after each nightly build, saving 45 minutes per ticket.
+                            p
+                                | • Built toolkits for Bamboo and Qtest with Python to automate test plan execution and issue tracking, saving over 5 hours per version iteration.
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
+                            span.text-primary Jan 2023 – Jun 2023
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
+                    //- .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    //-     .flex-grow-1
+                    //-         h3.mb-0 Junior Web Designer
+                    //-         .subheading.mb-3 Shout! Media Productions
+                    //-         p
+                    //-             | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                    //-     .flex-shrink-0
+                    //-         span.text-primary July 2010 - December 2011
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                    //- .d-flex.flex-column.flex-md-row.justify-content-between
+                    //-     .flex-grow-1
+                    //-         h3.mb-0 Web Design Intern
+                    //-         .subheading.mb-3 Shout! Media Productions
+                    //-         p
+                    //-             | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                    //-     .flex-shrink-0
+                    //-         span.text-primary September 2008 - June 2010
 
             hr.m-0
 
@@ -123,82 +143,145 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 University of California, San Diego
+                            .subheading.mb-3 Master of Science in Computer Science
+                            p GPA: 3.90
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary Sep 2024 – May 2026
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 Huazhong University of Science and Technology
+                            .subheading.mb-3 Bachelor of Engineering in Computer Science
+                            p GPA: 3.93
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary Sep 2020 - Jul 2024
 
             hr.m-0
 
-            // Skills
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-3 Programming Languages & Databases
                     ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-html5
+                            i.fab.fa-java
                         li.list-inline-item
-                            i.fab.fa-css3-alt
+                            i.fab.fa-python
                         li.list-inline-item
                             i.fab.fa-js-square
                         li.list-inline-item
-                            i.fab.fa-angular
+                            i.fab.fa-cuttlefish
+                        //- li.list-inline-item
+                        //-     img(src="assets/img/cpp.png", width="40", height="40")
                         li.list-inline-item
-                            i.fab.fa-react
+                            i.fab.fa-golang
                         li.list-inline-item
-                            i.fab.fa-node-js
+                            img(src="assets/img/mysql.png", height="75")
+
+                    .subheading.mb-3 Frameworks & Tools
+                    ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-sass
+                            i.fas.fa-leaf
                         li.list-inline-item
-                            i.fab.fa-less
+                            i.fab.fa-vuejs
                         li.list-inline-item
-                            i.fab.fa-wordpress
+                            i.fab.fa-linux
                         li.list-inline-item
-                            i.fab.fa-gulp
+                            i.fab.fa-docker
                         li.list-inline-item
-                            i.fab.fa-grunt
+                            i.fab.fa-jenkins
                         li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-git
+                        li.list-inline-item
+                            i.fab.fa-jira
+                        li.list-inline-item
+                            i.fab.fa-confluence
+                    .subheading.mb-3 Development Practices
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Mobile-First, Responsive Design
+                            | Backend & Full-Stack Development
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Browser Testing & Debugging
+                            | RESTful API Design & Microservices Architecture
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Functional Teams
+                            | Web Application Development
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Agile Development & Scrum
+                            | Test Automation & Continuous Integration
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Large-Scale System Testing & Validation
+
 
             hr.m-0
 
             // Interests
             section#interests.resume-section
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    h2.mb-5 Selected Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Engineering construction project management system (B/S Web Application)
+                            .subheading.mb-3 Huazhong University of Science and Technology
+                            p
+                                | • Completed the full-stack development of this graduation design project system independently.
+                            p
+                                | • Utilized Spring Boot 3 framework and Java as the primary programming language to build the backend services, ensuring robust and scalable application architecture.
+                            p
+                                | • Developed the frontend using Vue 3 framework and JavaScript, creating a responsive and interactive user interface.
+                            p
+                                | •	Managed backend data using MySQL for relational data storage, Redis for caching, and MyBatis for ORM (Object-Relational Mapping) to handle database interactions efficiently.
+            
+                        .flex-shrink-0
+                            span.text-primary Dec 2023 – May 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 HUSTwiki
+                            .subheading.mb-3 Huazhong University of Science and Technology
+                            p
+                                | • Led the development of HUSTwiki, a communication platform for Huazhong University of Science and Technology, deployed on the WeChat mini-program platform.
+                            p
+                                | • Managed the back-end service and project data, primarily using Java.
+                            p
+                                | •	Developed expertise in cloud server cluster operations, remote server application development and deployment, as well as the intricacies of the Redis database.
+                        .flex-shrink-0
+                            span.text-primary Jul 2022 – Nov 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 NUS Summer Workshop – Data Security
+                            .subheading.mb-3 National University of Singapore
+                            p
+                                | •	Conducted in-depth research on network attack and defense, as well as data security, collaborating with group members to write a thesis and completed the project.
+                            p
+                                | •	Formulated the "Verification of (C) Programs" tool with a user-friendly graphical interface (GUI) to address buffer overflow vulnerabilities in programs written in languages such as C or Java.
+            
+                        .flex-shrink-0
+                            span.text-primary Apr 2022 – Aug 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Tencent mobile device client development project
+                            .subheading.mb-3 Tencent
+                            p
+                                | • Contributed to a collaborative mobile device client development initiative jointly sponsored by Tencent and HUST. 
+                            p
+                                | • Spearheaded the development of the ‘NetNews’ Android news browser client independently.
+            
+                        .flex-shrink-0
+                            span.text-primary Jan 2022 – Aug 2022
 
             hr.m-0
 
